@@ -18,7 +18,7 @@ Perfect for content creators, churches, educational sites, businesses, and music
 - **Easy Configuration** - Visual admin panel with real-time API connection testing
 - **Performance Optimized** - Smart caching system and lazy loading for fast page speeds
 - **Custom CSS Support** - Advanced styling options for developers and designers
-- **One-Click Setup** - Simple shortcode implementation `[youtube_playlist_display]`
+- **One-Click Setup** - Simple shortcode implementation `[display_youtube_playlists]`
 - **Color Picker** - Choose any background color to match your brand
 - **Cache Management** - Built-in cache system with one-click clearing
 - **Debug Mode** - Helpful troubleshooting tools for administrators
@@ -38,7 +38,7 @@ Perfect for content creators, churches, educational sites, businesses, and music
 1. Get your free YouTube API key from [Google Cloud Console](https://console.developers.google.com)
 2. Find your YouTube Channel ID
 3. Configure the plugin settings in WordPress admin
-4. Add `[youtube_playlist_display]` shortcode to any page or post
+4. Add `[display_youtube_playlists]` shortcode to any page or post
 5. Enjoy beautiful, professional video galleries!
 
 ## 📥 Installation
@@ -80,22 +80,22 @@ Perfect for content creators, churches, educational sites, businesses, and music
 
 ```php
 // Basic usage
-[youtube_playlist_display]
+[display_youtube_playlists]
 
 // Dark theme
-[youtube_playlist_display theme="dark"]
+[display_youtube_playlists theme="dark"]
 
 // Custom background color
-[youtube_playlist_display background="#ff5733"]
+[display_youtube_playlists background="#ff5733"]
 
 // Limit videos per playlist
-[youtube_playlist_display max_videos="10"]
+[display_youtube_playlists max_videos="10"]
 
 // Combined options
-[youtube_playlist_display theme="dark" background="#2d2d2d" max_videos="12"]
+[display_youtube_playlists theme="dark" background="#2d2d2d" max_videos="12"]
 
 // Debug mode (admins only)
-[youtube_playlist_display debug="true"]
+[display_youtube_playlists debug="true"]
 ```
 
 ### Custom CSS
@@ -103,7 +103,7 @@ Perfect for content creators, churches, educational sites, businesses, and music
 Add custom styles in the plugin's CSS editor:
 
 ```css
-.ypd-video-card {
+.dyp-video-card {
     border: 2px solid #your-color;
     border-radius: 15px;
 }

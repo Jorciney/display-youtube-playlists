@@ -24,7 +24,7 @@ Perfect for content creators, churches, educational sites, businesses, and music
 * **Easy Configuration** - Visual admin panel with real-time API connection testing
 * **Performance Optimized** - Smart caching system and lazy loading for fast page speeds
 * **Custom CSS Support** - Advanced styling options for developers and designers
-* **One-Click Setup** - Simple shortcode implementation `[youtube_playlist_display]`
+* **One-Click Setup** - Simple shortcode implementation `[display_youtube_playlists]`
 * **Color Picker** - Choose any background color to match your brand
 * **Cache Management** - Built-in cache system with one-click clearing
 * **Debug Mode** - Helpful troubleshooting tools for administrators
@@ -44,7 +44,7 @@ Perfect for content creators, churches, educational sites, businesses, and music
 1. Get your free YouTube API key from Google Cloud Console
 2. Find your YouTube Channel ID (we show you exactly how!)
 3. Configure the plugin settings in WordPress admin
-4. Add `[youtube_playlist_display]` shortcode to any page or post
+4. Add `[display_youtube_playlists]` shortcode to any page or post
 5. Enjoy beautiful, professional video galleries!
 
 = 📱 Mobile-First Design =
@@ -69,12 +69,12 @@ Your video galleries will look amazing on all devices:
 * Dark theme - Modern dark mode with elegant contrast
 
 **Shortcode Options:**
-* `[youtube_playlist_display]` - Basic usage with default settings
-* `[youtube_playlist_display theme="dark"]` - Force dark theme
-* `[youtube_playlist_display background="#ff5733"]` - Custom background color
-* `[youtube_playlist_display max_videos="10"]` - Limit videos per playlist
-* `[youtube_playlist_display theme="dark" background="#2d2d2d" max_videos="12"]` - Combined options
-* `[youtube_playlist_display debug="true"]` - Debug mode (admins only)
+* `[display_youtube_playlists]` - Basic usage with default settings
+* `[display_youtube_playlists theme="dark"]` - Force dark theme
+* `[display_youtube_playlists background="#ff5733"]` - Custom background color
+* `[display_youtube_playlists max_videos="10"]` - Limit videos per playlist
+* `[display_youtube_playlists theme="dark" background="#2d2d2d" max_videos="12"]` - Combined options
+* `[display_youtube_playlists debug="true"]` - Debug mode (admins only)
 
 **Advanced Styling:**
 * Custom CSS editor in admin panel
@@ -142,7 +142,7 @@ Your video galleries will look amazing on all devices:
    - Test connection and save settings
 
 4. **Add to Your Site:**
-   - Add `[youtube_playlist_display]` to any page or post
+   - Add `[display_youtube_playlists]` to any page or post
    - Customize with shortcode options as needed
 
 == Frequently Asked Questions ==
@@ -210,7 +210,7 @@ Absolutely! The plugin offers multiple customization options:
 
 **Example Custom CSS:**
 ```css
-.ypd-video-card {
+.dyp-video-card {
     border: 2px solid #your-color;
     border-radius: 15px;
 }
@@ -261,7 +261,7 @@ The plugin has its own smart caching system that works alongside WordPress cachi
 = Can I translate the plugin? =
 
 Yes! The plugin is translation-ready with:
-* Text domain: `youtube-playlist-display`
+* Text domain: `display-youtube-playlists`
 * POT file included for translators
 * Compatible with translation plugins like WPML and Polylang
 
